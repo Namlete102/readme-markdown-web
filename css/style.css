@@ -12,25 +12,9 @@ html {
 
 @view-transition {
   navigation: auto;
+  types: slide, rotate;
 }
 
-@keyframes slide-from-right {
-  from {
-    transform: translateX(100vw);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-
-::view-transition-old(root) {
-  animation: none;
-}
-
-::view-transition-new(root) {
-  animation: slide-from-right 1.0s;
-}
 
 
 /* Đổi tên tiêu đề mặc định của github tham khảo Source - https://stackoverflow.com/a/26889106
