@@ -29,7 +29,7 @@ html {
 }
 
 ::view-transition-new(root) {
-  animation: slide-from-right 0.3s;
+  animation: slide-from-right 1.0s;
 }
 
 
