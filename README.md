@@ -41,6 +41,7 @@ Danh sách có thứ tự:
 2. Hai 
 3. Ba
 
+<p id="math-web"></p>
 ### Chèn phương trình toán học:
  
 Viết phương trình định lý Pytago ở chế độ `inline math`: \\(z^2 = x^2 + y^2\\)  
@@ -55,6 +56,10 @@ $$
 $$
 
 Tham chếu đến phương trình \eqref{eq:1}
+
+### Tham chiếu chéo nội dung
+
+Nhấp vào <a href="#math-web">chèn phương trình toán học</a> để được chuyển đến nội dung chèn toán học vào website.
 
 ### Chèn code 
 
