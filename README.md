@@ -49,13 +49,13 @@ Viết phương trình định lý Pytago ở chế độ `inline math`: \\(z^2 
 Viết phương trình Dirac trong cơ học lượng tử ở chế độ `display math`: 
 
 $$
-\begin{equation}
+\begin{equation} \tag{1.1}
 (i \gamma^\mu \partial_\mu - m) \psi = 0
-\label{eq:1}
+\label{eq:1.1}
 \end{equation}
 $$
 
-Tham chếu đến phương trình \eqref{eq:1}
+Tham chếu đến phương trình \eqref{eq:1.1}
 
 ### Tham chiếu chéo nội dung
 
@@ -74,14 +74,14 @@ Hello \LaTeX
 
 ### Chèn ảnh
 
-Ảnh đuôi file là jpg: 
+jpg: 
 
 <figure>
     <img src="./images/sumida (shimeji simulation).jpg" alt="Shimuda">
     <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
 </figure> 
 
-Ảnh đuôi file là gif: 
+gif: 
 
 <figure>
     <img src="./images/Satanichia McDowell Kurumizawa.gif" alt="Satanichia McDowell Kurumizawa">
