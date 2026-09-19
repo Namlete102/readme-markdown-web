@@ -3,6 +3,12 @@ body{
   color:aliceblue; 
 }
 
+/* Kích hoạt tính năng cuộn mượt cho toàn bộ trang */
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Đổi tên tiêu đề mặc định của github */
 
 /* Source - https://stackoverflow.com/a/26889106
