@@ -8,10 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Chuyển đổi trang mượt mà */
 
-/* Đổi tên tiêu đề mặc định của github */
+@view-transition {
+  navigation: auto;
+}
 
-/* Source - https://stackoverflow.com/a/26889106
+
+/* Đổi tên tiêu đề mặc định của github tham khảo Source - https://stackoverflow.com/a/26889106
 Posted by G-Cyrillus
 Retrieved 2026-09-17, License - CC BY-SA 3.0 */
 
