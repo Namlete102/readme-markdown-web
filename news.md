@@ -3,7 +3,13 @@
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 
-## [Trang chủ](./README.md)|[Giới thiệu](./about.md)|Cập nhật
+<div data-barba="wrapper">
+    <div data-barba="container" data-barba-namespace="about">
+        <span><a href="./README.md"><h2>Trang chủ</h2></a></span>
+        <span><a href=""><h2>[Cập nhật]</h2></a></span>
+        <span><a href="./about.md"><h2>Giới thiệu</h2></a></span>
+    </div>
+</div>
 
 Nơi đây sẽ chứa những thông báo mới nhất của dự án. 
 

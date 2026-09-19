@@ -6,8 +6,21 @@
 <!-- Contents -->
 
 Chào mừng bạn đến với web được tạo bằng `README.md` và với các tệp trình bày nội dung cũng được viết cũng bằng đuôi `.md`. 
+<!-- base styles to prevent container from moving during transition -->
+<style media="screen">
+  [data-barba="container"] {
+    position: absolute;
+  }
+  </style>
 
-## Trang chủ|[Giới thiệu](./about.md)|[Cập nhật](./news.md) 
+<!-- define the wrapper and the container -->
+<div data-barba="wrapper">
+  <div data-barba="container" data-barba-namespace="home">
+    <span><a href=""><h2>[Trang chủ]</h2></a></span>
+    <span><a href="./news.md"><h2>Cập nhật</h2></a></span>
+    <span><a href="./about.md"><h2>Giới thiệu</h2></a></span>
+  </div>
+</div>
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
 
@@ -144,4 +157,31 @@ Hello \LaTeX
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true});
+</script>
+
+<!-- barba -->
+
+<!-- load barba (UMD version) -->
+<script src="https://unpkg.com/@barba/core"></script>
+
+<!-- load gsap animation library (minified version) -->
+<script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+
+<!-- init barba with a simple opacity transition -->
+<script type="text/javascript">
+      barba.init({
+        transitions: [{
+          name: 'opacity-transition',
+          leave(data) {
+            return gsap.to(data.current.container, {
+              opacity: 0
+            });
+          },
+          enter(data) {
+            return gsap.from(data.next.container, {
+              opacity: 0
+            });
+          }
+        }],
+      });
 </script>
