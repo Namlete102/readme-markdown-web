@@ -9,7 +9,7 @@
         <span><a href=""><h2>[Cập nhật]</h2></a></span>
         <span><a href="./about.md"><h2>Giới thiệu</h2></a></span>
     </div>
-</div>
+
 
 Nơi đây sẽ chứa những thông báo mới nhất của dự án. 
 
@@ -42,3 +42,4 @@ Nơi đây sẽ chứa những thông báo mới nhất của dự án.
     + Can be used online
 
 Tham khảo ở web [đây](https://bellard.org/tinyemu/): <a href="https://bellard.org/tinyemu/" target="_blank">https://bellard.org/tinyemu/</a>
+</div>

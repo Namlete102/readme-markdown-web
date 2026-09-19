@@ -20,7 +20,6 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và với 
     <span><a href="./news.md"><h2>Cập nhật</h2></a></span>
     <span><a href="./about.md"><h2>Giới thiệu</h2></a></span>
   </div>
-</div>
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
 
@@ -125,6 +124,7 @@ Hello \LaTeX
             <p>Copyright &copy;2026; Designed and edited by Namlete</p>
         </div>
   </footer>
+</div>
 
 <!-- JS -->
 

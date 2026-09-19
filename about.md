@@ -9,6 +9,7 @@
         <span><a href="./news.md"><h2>Cập nhật</h2></a></span>
         <span><a href=""><h2>[Giới thiệu]</h2></a></span>
     </div>
-</div>
+
 
 Nguyễn Lê Nam (Namlete) một thằng lông bông sinh năm 2007. 
+</div>
