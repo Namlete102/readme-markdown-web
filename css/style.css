@@ -14,6 +14,24 @@ html {
   navigation: auto;
 }
 
+@keyframes slide-from-right {
+  from {
+    transform: translateX(100vw);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+::view-transition-old(root) {
+  animation: none;
+}
+
+::view-transition-new(root) {
+  animation: slide-from-right 0.3s;
+}
+
 
 /* Đổi tên tiêu đề mặc định của github tham khảo Source - https://stackoverflow.com/a/26889106
 Posted by G-Cyrillus
