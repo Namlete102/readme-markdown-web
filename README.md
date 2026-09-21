@@ -103,18 +103,7 @@ gif:
 
 ## Chân trang (footer) 
 
-<!-- footer-->
-<footer>
-        <div class="footerNav">
-            <ul>
-                <li><a href="https://github.com/Namlete102/readme-markdown-web">Github</a></li>            
-                <li><a href="#">Contact me</a></li>
-            </ul>
-        </div>
-        <div class="footerBottom">
-            <p>Copyright &copy;2026; Designed by Namlete102</p>
-         </div>
-</footer>
+
 
 <!-- JS -->
 
