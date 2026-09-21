@@ -59,7 +59,7 @@ Tham chếu đến phương trình \eqref{eq:1.1}
 
 ### Chú thích - Footnote 
 
-Chú thích nè <a id="footnote-1-ref" href="#footnote-2">\(^{1}\)</a>
+Chú thích nè <a id="footnote-1-ref" href="#footnote-1">\(^{1}\)</a>
 
 ### Tham chiếu chéo nội dung
 

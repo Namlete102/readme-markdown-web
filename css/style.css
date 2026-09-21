@@ -154,13 +154,12 @@ footer{
 
 /* Footnote */
 
-	ol li{
-    	   margin-bottom: 10px;
-	}
+ol li{
+  margin-bottom: 10px;
+}
     
-    a{
-        font-size: 14px;
-        text-decoration: none;
-        cursor: pointer;
-        color:rgb(50, 78, 192); 
-    }
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color:rgb(50, 78, 192); 
+}
