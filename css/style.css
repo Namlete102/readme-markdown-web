@@ -151,3 +151,16 @@ footer{
         margin: 10px;
     }
 }
+
+/* Footnote */
+
+	ol li{
+    	   margin-bottom: 10px;
+	}
+    
+    a{
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        color:rgb(50, 78, 192); 
+    }

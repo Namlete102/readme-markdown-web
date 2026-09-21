@@ -57,6 +57,10 @@ $$
 
 Tham chếu đến phương trình \eqref{eq:1.1}
 
+### Chú thích - Footnote 
+
+Chú thích nè <a id="footnote-1-ref" href="#footnote-2">\(^{1}\)</a>
+
 ### Tham chiếu chéo nội dung
 
 Nhấp vào <a href="#math-web">chèn phương trình toán học</a> để được chuyển đến nội dung chèn toán học vào website.
@@ -103,9 +107,14 @@ gif:
 
 ## Chân trang (footer) 
 
+<!-- footnote -->
 
+  <div>
+        <ol>
+            <li id="footnote-1">This is my second footnote.<a href="#footnote-2-ref">&#8617;</a></li>
+        </ol>
+  </div>
 
-<!-- JS -->
 
 <!-- Mathjax -->
 <script type="text/javascript" id="MathJax-script" async
