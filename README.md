@@ -125,7 +125,7 @@ Sử dụng thuần thẻ `div`, `blockquote`.
 
 <div align="left">
     <blockquote>
-        <b>The more real you get, the more unreal everything else is.<b>
+        <b>The more real you get, the more unreal everything else is.</b>
         <br>
         -John Lennon- 
    </blockquote>
