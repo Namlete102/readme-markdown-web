@@ -166,12 +166,12 @@ Tạo thuần thẻ `div`, `span` và `center` cơ bản. Xem ở cuối trang �
 [^second]: Cái thứ hai
 
 <div align="center">
-  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank"><h3>Github</h3></a></span>.
-  <span><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank"><h3>Contact</h3></a></span>
+  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank"><b>Github</b></a></span>.
+  <span><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank"><b>Contact</b></a></span>
 </div>
 
 <div align="center">
-  Copyright ©2026; Designed and edited by Namlete
+  <b>Copyright ©2026; Designed and edited by Namlete</b>
 </div>
 
 
