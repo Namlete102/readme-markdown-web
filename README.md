@@ -19,6 +19,13 @@ Văn bản thường nè.
 
 **In đậm**, *In nghiêng*, <u>Gạch chân chữ</u>, ~~Gạch giữa chữ~~. 
 
+<!-- Đạo lý -->
+
+### Blockquote
+
+> The more real you get, the more unreal everything else is.
+> John Lennon 
+
 ### Chèn link: 
 
 Trực tiếp: Mã nguồn dự án [https://github.com/Namlete102/README-markdown-web](https://github.com/Namlete102/README-markdown-web)
@@ -110,6 +117,17 @@ gif:
 </pre>
 
 ## Chân trang (footer) 
+
+Tạo thuần thẻ `div`, `span` và `center` cơ bản.
+
+<div align="center">
+  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank">Github</a></span>.
+  <span><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact</a></span>
+</div>
+
+<div align="center">
+  Copyright ©2026; Designed and edited by Namlete
+</div>
 
 <hr>
 
