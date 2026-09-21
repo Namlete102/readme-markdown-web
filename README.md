@@ -65,9 +65,9 @@ Nhấp vào <a href="#math-web">chèn phương trình toán học</a> để đư
 
 ### Chú thích - Footnote 
 
-Từ bài học tham chiếu chéo phương trình trên ta có:
+Chú thích đầu tiên link[^first]
 
-Chú thích nè <a id="footnote-1-ref" href="#footnote-1"><sup>1</sup></a>
+Chú thích thứ hai link[^second]
 
 ### Chèn code 
 
@@ -115,14 +115,9 @@ gif:
 
 <!-- footnote -->
 
-<div id="footnote-1">
-  <ol>
-    <li>This is my first footnote.<a href="#footnote-1-ref" style="        text-decoration: none;
-        cursor: pointer;
-        color:rgb(50, 78, 192);">&#8617;</a>
-    </li>
-  </ol>
-</div>
+[^first]: Cái đầu tiên
+
+[^second]: Cái thứ hai
 
 
 <!-- Mathjax -->
