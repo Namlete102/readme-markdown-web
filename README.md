@@ -57,13 +57,17 @@ $$
 
 Tham chếu đến phương trình \eqref{eq:1.1}
 
-### Chú thích - Footnote 
-
-Chú thích nè <a id="footnote-1-ref" href="#footnote-1">\(^{1}\)</a>
-
 ### Tham chiếu chéo nội dung
 
 Nhấp vào <a href="#math-web">chèn phương trình toán học</a> để được chuyển đến nội dung chèn toán học vào website.
+
+<!-- chú thích -->
+
+### Chú thích - Footnote 
+
+Từ bài học tham chiếu chéo phương trình trên ta có:
+
+Chú thích nè <a id="footnote-1-ref" href="#footnote-1">\(^{1}\)</a>
 
 ### Chèn code 
 
@@ -107,13 +111,13 @@ gif:
 
 ## Chân trang (footer) 
 
+---
+
 <!-- footnote -->
 
-  <div>
-        <ol>
-            <li id="footnote-1">This is my second footnote.<a href="#footnote-2-ref">&#8617;</a></li>
-        </ol>
-  </div>
+<div id="footnote-1">
+    This is my first footnote.<a href="#footnote-1-ref">&#8617;</a></li>
+</div>
 
 
 <!-- Mathjax -->
