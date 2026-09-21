@@ -111,13 +111,15 @@ gif:
 
 ## Chân trang (footer) 
 
----
+<hr>
 
 <!-- footnote -->
 
 <div id="footnote-1">
   <ol>
-    <li>This is my first footnote.<a href="#footnote-1-ref">&#8617;</a>
+    <li>This is my first footnote.<a href="#footnote-1-ref" style="        text-decoration: none;
+        cursor: pointer;
+        color:rgb(50, 78, 192);">&#8617;</a>
     </li>
   </ol>
 </div>
