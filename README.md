@@ -155,24 +155,25 @@ Sử dụng thuần thẻ `div`, `blockquote`.
 
 ## Chân trang 
 
-Tạo thuần thẻ `div`, `span` và `center` cơ bản. Xem ở cuối trang để thấy
-
-<hr>
-
-<!-- footnote -->
-
-[^first]: Cái đầu tiên
-
-[^second]: Cái thứ hai
+Tạo thuần thẻ `div`, `span` và `center` cơ bản. 
 
 <div align="center">
-  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank"><b>Github</b></a></span>.
+  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank"><b>Github</b></a></span> 
+  .
   <span><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank"><b>Contact</b></a></span>
 </div>
 
 <div align="center">
   <b>Copyright ©2026; Designed and edited by Namlete</b>
 </div>
+
+<hr> 
+
+<!-- footnote -->
+
+[^first]: Cái đầu tiên
+
+[^second]: Cái thứ hai
 
 
 <!-- Mathjax -->
