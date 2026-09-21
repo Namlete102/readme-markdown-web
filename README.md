@@ -13,18 +13,28 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và với 
 
 Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa ở file `README.md` này. 
 
+### Tiêu đề: 
+
+```markdown
+# Tiêu đề loại 1
+
+## Tiêu đề loại 2
+
+### Tiêu đề loại 3
+
+#### Tiêu đề loại 4
+
+##### Tiêu đề loại 5
+
+###### Tiêu đề loại 6
+```
+
 ### Viết văn bản: 
 
 Văn bản thường nè. 
 
 **In đậm**, *In nghiêng*, <u>Gạch chân chữ</u>, ~~Gạch giữa chữ~~. 
 
-<!-- Đạo lý -->
-
-### Blockquote
-
-> The more real you get, the more unreal everything else is.
-> John Lennon 
 
 ### Chèn link: 
 
@@ -68,9 +78,9 @@ Tham chếu đến phương trình \eqref{eq:1.1}
 
 Nhấp vào <a href="#math-web">chèn phương trình toán học</a> để được chuyển đến nội dung chèn toán học vào website.
 
-<!-- chú thích -->
+<!-- Footnote  -->
 
-### Chú thích - Footnote 
+### Chú thích 
 
 Chú thích đầu tiên link[^first]
 
@@ -87,7 +97,11 @@ Hello \LaTeX
 \end{document}
 ```
 
+<!-- figure -->
+
 ### Chèn ảnh
+
+Sử dụng thẻ `figure`, và viết chú thích ảnh bằng `figcaption`. 
 
 jpg: 
 
@@ -103,6 +117,27 @@ gif:
     <figcaption>Nhân vật Satanichia McDowell Kurumizawa trong Gabriel DropOut.</figcaption>
 </figure> 
 
+<!-- Đạo lý -->
+
+### Blockquote
+
+Sử dụng thuần thẻ `div`, `blockquote`. 
+
+<div align="left">
+    <blockquote>
+        <b>The more real you get, the more unreal everything else is.<b>
+        <br>
+        -John Lennon- 
+   </blockquote>
+</div>
+
+<figure>
+    <img src="./images/John Lennon.jpg" alt="John ">
+    <figcaption>Nhạc sĩ người Anh John Lennon</figcaption>
+</figure> 
+
+<!-- Mermaid -->
+
 ### Mermaid 
 
 <pre class="mermaid">
@@ -116,18 +151,11 @@ gif:
         Bullet 4 : sub-point 4a : sub-point 4b
 </pre>
 
-## Chân trang (footer) 
+<!-- footer -->
 
-Tạo thuần thẻ `div`, `span` và `center` cơ bản.
+## Chân trang 
 
-<div align="center">
-  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank">Github</a></span>.
-  <span><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact</a></span>
-</div>
-
-<div align="center">
-  Copyright ©2026; Designed and edited by Namlete
-</div>
+Tạo thuần thẻ `div`, `span` và `center` cơ bản. Xem ở cuối trang để thấy
 
 <hr>
 
@@ -136,6 +164,15 @@ Tạo thuần thẻ `div`, `span` và `center` cơ bản.
 [^first]: Cái đầu tiên
 
 [^second]: Cái thứ hai
+
+<div align="center">
+  <span><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank"><h3>Github</h3></a></span>.
+  <span><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank"><h3>Contact</h3></a></span>
+</div>
+
+<div align="center">
+  Copyright ©2026; Designed and edited by Namlete
+</div>
 
 
 <!-- Mathjax -->
