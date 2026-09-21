@@ -112,7 +112,7 @@ gif:
             </ul>
         </div>
         <div class="footerBottom">
-            <p>Copyright &copy;2026; Designed by Namlete</p>
+            <p>Copyright &copy;2026; Designed by Namlete102</p>
          </div>
 </footer>
 
