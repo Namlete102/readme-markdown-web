@@ -67,7 +67,7 @@ Nhấp vào <a href="#math-web">chèn phương trình toán học</a> để đư
 
 Từ bài học tham chiếu chéo phương trình trên ta có:
 
-Chú thích nè <a id="footnote-1-ref" href="#footnote-1">\(^{1}\)</a>
+Chú thích nè <a id="footnote-1-ref" href="#footnote-1"><sup>1</sup></a>
 
 ### Chèn code 
 
@@ -116,7 +116,10 @@ gif:
 <!-- footnote -->
 
 <div id="footnote-1">
-    This is my first footnote.<a href="#footnote-1-ref">&#8617;</a></li>
+  <ol>
+    <li>This is my first footnote.<a href="#footnote-1-ref">&#8617;</a>
+    </li>
+  </ol>
 </div>
 
 
