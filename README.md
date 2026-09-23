@@ -1,6 +1,6 @@
 <!-- css --> 
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="custom.css">
 
 <!-- Lời nói đàu -->
 
