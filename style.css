@@ -26,7 +26,7 @@ h1 {
 
 h1:before {
   text-indent:0;
-  content:'Make web by file REAME.md in Github';
+  content:'README.md';
   float:left;
 } 
 
