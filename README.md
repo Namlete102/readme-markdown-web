@@ -169,7 +169,7 @@ Sử dụng thuần thẻ `div`, `blockquote`.
 
 ## Chèn bảng
 
-<div align="center">
+<div align="center" class="table-container">
 <table>
         <tr>
             <th></th>
