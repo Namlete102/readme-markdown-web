@@ -89,12 +89,11 @@ Chú thích thứ hai link[^second]
 
 ### Chèn code 
 
-DIsplay code: 
+Display code: 
 
 LaTeX: 
 
 ```latex
-
 \documentclass{article}
 \begin{document}
 Hello \LaTeX
@@ -105,7 +104,6 @@ Hello \LaTeX
 Python:
 
 ```python
-
 import random
 
 # Tạo một số ngẫu nhiên từ 1 đến 10
