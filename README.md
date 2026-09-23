@@ -167,59 +167,6 @@ Sử dụng thuần thẻ `div`, `blockquote`.
     <figcaption>Nhạc sĩ người Anh John Lennon</figcaption>
 </figure> 
 
-## Chèn bảng
-
-<div align="center" class="table-container">
-<table>
-        <tr>
-            <th></th>
-            <th></th>
-            <th>Thứ hai</th>
-            <th>Thứ ba</th>
-            <th>Thứ tư</th>
-            <th>Thứ năm</th>
-            <th>Thứ sáu</th>
-        </tr>
-        <tr>
-            <td rowspan="5">Sáng</td>
-            <td>Tiết 1</td>
-            <td>Chào cờ</td>
-            <td>GDĐP</td>
-            <td>Lịch sử</td>
-            <td>GDQP</td>
-            <td>Địa lý</td>
-        </tr>
-        <tr>
-           <td colspan="6"><div align="center">Ra chơi 1</div></td>
-        </tr>
-        <tr>
-            <td>Tiết 2</td>
-            <td>Ngoại ngữ</td>
-            <td>Ngoại ngữ</td>
-            <td>HĐ TNHN</td>
-            <td>Tin học</td>
-            <td>Địa lí</td>
-        </tr>
-        <tr>
-            <td>Tiết 3</td>
-            <td>Toán</td>
-            <td>Ngoại ngữ</td>
-            <td>HĐ TNHN</td>
-            <td>Tin học</td>
-            <td>GDQP</td>
-        </tr>
-        <tr>
-            <td colspan="6"><div align="center">Ra chơi 2</div></td>
-        </tr>
-</table>
-Thời khóa biểu
-</div>
-
-## Callout 
-
-> [!NOTE]  
-> Nhấn mạnh những thông tin mà người dùng nên lưu ý, ngay cả khi chỉ đọc lướt qua.
-
 <!-- Mermaid -->
 
 ### Mermaid 
