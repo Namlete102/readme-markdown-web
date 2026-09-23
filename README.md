@@ -16,6 +16,7 @@ Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa �
 ### Tiêu đề: 
 
 ```markdown
+
 # Tiêu đề loại 1
 
 ## Tiêu đề loại 2
@@ -91,10 +92,36 @@ Chú thích thứ hai link[^second]
 DIsplay code: 
 
 ```latex
+
 \documentclass{article}
 \begin{document}
 Hello \LaTeX
 \end{document}
+```
+
+```python
+
+import random
+
+# Tạo một số ngẫu nhiên từ 1 đến 10
+so_bi_mat = random.randint(1, 10)
+so_lan_doan = 0
+
+print("=== GAME ĐOÁN SỐ (1 đến 10) ===")
+
+while True:
+    # Nhận dữ liệu nhập từ người dùng
+    doan = int(input("Nhập số bạn đoán: "))
+    so_lan_doan += 1
+
+    # Kiểm tra kết quả
+    if doan < so_bi_mat:
+        print("Số bí mật LỚN HƠN số bạn đoán!")
+    elif doan > so_bi_mat:
+        print("Số bí mật NHỎ HƠN số bạn đoán!")
+    else:
+        print(f"🎉 Chúc mừng! Bạn đã đoán đúng số {so_bi_mat} sau {so_lan_doan} lần thử.")
+        break
 ```
 
 <!-- figure -->
