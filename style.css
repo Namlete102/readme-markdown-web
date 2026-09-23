@@ -26,7 +26,7 @@ h1 {
 
 h1:before {
   text-indent:0;
-  content:'README.md';
+  content:'Make web by file README.md';
   float:left;
 } 
 
