@@ -100,6 +100,16 @@ Hello \LaTeX
 \end{document}
 ```
 
+<div class="markdown-code">
+<pre>
+<code>
+\documentclass{article}
+\begin{document}
+Hello \LaTeX
+\end{document}
+</code>
+</pre>
+</div>
 
 Python:
 
