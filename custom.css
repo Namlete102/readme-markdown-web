@@ -99,12 +99,10 @@ figure figcaption {
 /* ==========================================================================
    2. DISPLAY CODE BLOCK (`pre` và `.highlight`)
    ========================================================================== */
-body .highlight pre{
+.highlight pre{
     margin-top: 0;
     margin-bottom: 1.25rem;
     border-radius: 0.625rem;
-    background-color: #1e1e2e; /* Màu nền tối chuẩn Chirpy Dark / GitHub */
-    color: #c9d1d9;
 }
 
 pre {
@@ -152,10 +150,10 @@ pre {
 
 /* Comment & Preprocessor */
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
-    color: #8b949e;
+    color: #1e1e2e; ;
     font-style: italic;
 }
-.highlight .cp { color: #8b949e; font-weight: bold; }
+.highlight .cp { color: #1e1e2e; ; font-weight: bold; }
 
 /* Error & Deletion/Addition */
 .highlight .err { color: #f85149; background-color: rgba(248, 81, 73, 0.15); }
