@@ -104,41 +104,9 @@ figure figcaption {
 
 .highlighter-rouge,
 .highlight {
-  background: transparent !important;
-  padding: 0 !important;
-  border: none !important;
+  background: #1e1e2e !important; /* Màu nền tối chuẩn Chirpy Dark / GitHub */
 }
 
-pre {
-    margin-top: 0;
-    margin-bottom: 1.25rem;
-    border-radius: 0.625rem;
-    padding: 1rem 1.25rem;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: #4d4d60 !important;
-}
-
-/*Reset CSS cho thẻ code nằm bên trong thẻ pre (Block code)*/
- pre > code {
-    display: block;
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    word-break: normal;
-    white-space: pre;
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    color: inherit;
-}
-
-.highlight pre {
-    margin-bottom: 0;
-    word-break: normal;
-}
 
 /* ==========================================================================
    3. SYNTAX HIGHLIGHTING (Color Palette)
