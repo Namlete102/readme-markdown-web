@@ -101,6 +101,7 @@ Hello \LaTeX
 \end{document}
 ```
 
+
 Python:
 
 ```python
@@ -181,14 +182,6 @@ Sử dụng thuần thẻ `div`, `blockquote`.
         Bullet 3 : sub-point <br> 3a : sub-point 3b
         Bullet 4 : sub-point 4a : sub-point 4b
 </pre>
-
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 
 <!-- footer -->
 
