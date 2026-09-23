@@ -26,7 +26,7 @@ h1 {
 
 h1:before {
   text-indent:0;
-  content:'Make web by file README.md';
+  content:'README.md file';
   float:left;
 } 
 
@@ -99,7 +99,7 @@ figure figcaption {
 /* ==========================================================================
    2. DISPLAY CODE BLOCK (`pre` và `.highlight`)
    ========================================================================== */
-.markdown-body, .highlight pre, .markdown-body pre {
+.highlight pre, .markdown-body pre {
     margin-top: 0;
     margin-bottom: 1.25rem;
     border-radius: 0.625rem;
