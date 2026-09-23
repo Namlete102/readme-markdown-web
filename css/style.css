@@ -84,15 +84,104 @@ figure figcaption {
 
 /* Chèn code */
 
-.highlighter-rouge {
-  color: #532922 ;
-  background-color: #98cfd6 ;
-  font-weight: 400;
-  border: none solid #607D8B ;
-  -webkit-border-radius: none;
-  border-radius: none;
-  padding: 0.1rem 0.5rem;
+/* ======================================================
+   VS CODE THEME FOR GITHUB PAGES (MARKDOWN CODE BLOCKS)
+   ====================================================== */
+
+/* 1. Reset các khung bọc mặc định của Jekyll/GitHub Markdown */
+.highlighter-rouge,
+.highlight {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
 }
+
+/* 2. Khung chứa chính (Khung VS Code) */
+pre {
+  background-color: #1e1e1e !important;
+  border-radius: 8px !important;
+  border: 1px solid #323233 !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  margin: 1.5rem 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+}
+
+/* 3. Giả lập thanh Header VS Code với 3 nút bấm macOS */
+pre::before {
+  content: "";
+  display: block;
+  height: 32px;
+  background-color: #252526;
+  border-bottom: 1px solid #2d2d2d;
+  /* Tạo 3 nút đỏ, vàng, xanh bằng CSS Gradient */
+  background-image: 
+    radial-gradient(circle, #ff5f56 5px, transparent 6px),
+    radial-gradient(circle, #ffbd2e 5px, transparent 6px),
+    radial-gradient(circle, #27c93f 5px, transparent 6px);
+  background-size: 12px 12px;
+  background-position: 14px 10px, 32px 10px, 50px 10px;
+  background-repeat: no-repeat;
+}
+
+/* 4. Định dạng chữ và khoảng cách trong khối code */
+pre > code {
+  display: block;
+  padding: 16px !important;
+  overflow-x: auto;
+  font-family: 'Cascadia Code', 'Fira Code', Consolas, Monaco, monospace !important;
+  font-size: 0.88rem !important;
+  line-height: 1.6 !important;
+  color: #d4d4d4 !important;
+  background: transparent !important;
+}
+
+/* 5. Custom thanh cuộn chuẩn VS Code */
+pre > code::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+pre > code::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+pre > code::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 4px;
+}
+pre > code::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
+}
+
+/* ======================================================
+   TÔ MÀU CÚ PHÁP CHUẨN VS CODE DARK+ (ROUGE HIGHLIGHTER)
+   ====================================================== */
+
+/* Từ khóa (if, else, function, const, let, import, return...) */
+.highlight .k, .highlight .kd, .highlight .kn, 
+.highlight .kp, .highlight .kr, .highlight .kt { color: #569CD6 !important; font-weight: normal; }
+
+/* Chuỗi (String) */
+.highlight .s, .highlight .s1, .highlight .s2, 
+.highlight .sb, .highlight .sc, .highlight .sr { color: #CE9178 !important; }
+
+/* Chú thích (Comments) */
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs { color: #6A9955 !important; font-style: italic; }
+
+/* Tên hàm (Function names) */
+.highlight .nf, .highlight .fm { color: #DCDCAA !important; }
+
+/* Số (Numbers) */
+.highlight .m, .highlight .mi, .highlight .mf, .highlight .mh { color: #B5CEA8 !important; }
+
+/* Tên Lớp/Type (Class / Interface) */
+.highlight .nc, .highlight .nn, .highlight .nt { color: #4EC9B0 !important; }
+
+/* Biến số (Variables / Properties) */
+.highlight .nv, .highlight .vi, .highlight .vg, .highlight .na { color: #9CDCFE !important; }
+
+/* Toán tử & Ký tự đặc biệt (Operators) */
+.highlight .o, .highlight .ow { color: #D4D4D4 !important; }
 
 /* Footnote */
 
