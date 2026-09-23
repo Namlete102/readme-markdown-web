@@ -97,33 +97,121 @@ figure figcaption {
 }
 
 /* ==========================================================================
-   2. DISPLAY CODE BLOCK (`pre` và `.highlight`)
+   2. DISPLAY CODE BLOCK (`pre` và `.highlight`) - CHIRPY STYLE
    ========================================================================== */
 
-/* Reset các khung bọc mặc định của Jekyll/GitHub Markdown */
-
+/* Khung bọc ngoài cùng của khối Code Block */
 .highlighter-rouge,
 .highlight {
-  background: #1e1e2e !important; /* Màu nền tối chuẩn Chirpy Dark / GitHub */
+    position: relative;
+    background: #1e1e2e !important; /* Màu nền tối chuẩn Chirpy Dark */
+    border-radius: 0.625rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   2.1. HEADER: TIÊU ĐỀ NGÔN NGỮ (data-lang) & NÚT COPY CLIPBOARD
+   -------------------------------------------------------------------------- */
+/* Tạo thanh Header ở trên cùng của Code Block */
+.highlight::before {
+    content: attr(data-lang); /* Lấy tên ngôn ngữ từ attribute data-lang */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.25rem;
+    padding: 0 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #8b949e;
+    background-color: #181825; /* Màu nền thanh header đậm hơn khung code */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Nút Copy Clipboard giả lập bằng CSS (Đặt ở góc trên bên phải) */
+.highlight::after {
+    content: "Copy";
+    position: absolute;
+    top: 0.35rem;
+    right: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.7rem;
+    color: #c9d1d9;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 2;
+}
+
+.highlight:hover::after {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+/* --------------------------------------------------------------------------
+   2.2. SỐ DÒNG (LINE NUMBERS - Jekyll Rouge Table)
+   -------------------------------------------------------------------------- */
+.highlight table {
+    width: 100%;
+    border-spacing: 0;
+    margin: 0;
+}
+
+.highlight table td {
+    padding: 0;
+    vertical-align: top;
+}
+
+.highlight table pre {
+    margin: 0;
+    padding: 0.8rem 1rem;
+    border: 0;
+    border-radius: 0;
+    background: transparent !important;
+}
+
+/* Cột chứa số dòng (Cột .gl hoặc .gutter) */
+.highlight td.gutter,
+.highlight td.gl {
+    width: 2.5rem;
+    user-select: none; /* Không cho phép bôi đen số dòng khi copy */
+    -webkit-user-select: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Kiểu chữ cho số dòng 1, 2, 3... */
+.highlight td.gl pre,
+.highlight td.gutter pre {
+    text-align: right;
+    padding-right: 0.75rem;
+    padding-left: 0.5rem;
+    color: #565f89; /* Màu số dòng ẩn nhẹ */
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 85%;
+}
+
+/* Cột chứa mã nguồn chính (.code) */
+.highlight td.code {
+    padding-left: 0.25rem;
+    overflow-x: auto;
+}
+
+.highlight td.code pre {
+    overflow: visible;
 }
 
 
 /* ==========================================================================
    3. SYNTAX HIGHLIGHTING (Color Palette)
    ========================================================================== */
-.highlight table {
-    width: 100%;
-    border-spacing: 0;
-}
-
-.highlight table td {
-    padding: 0;
-}
-
-.highlight table pre {
-    margin: 0;
-}
-
 /* Comment & Preprocessor */
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
     color: #8b949e;
