@@ -136,23 +136,6 @@ Sử dụng thuần thẻ `div`, `blockquote`.
     <figcaption>Nhạc sĩ người Anh John Lennon</figcaption>
 </figure> 
 
-### Callout 
-
-> [!NOTE]  
-> Nhấn mạnh những thông tin mà người dùng nên lưu ý, ngay cả khi chỉ đọc lướt qua.
-
-> [!TIP]
-> Thông tin tùy chọn nhằm giúp người dùng đạt được thành công hơn.
-
-> [!IMPORTANT]  
-> Thông tin quan trọng cần thiết để người dùng thành công.
-
-> [!WARNING]  
-> Nội dung quan trọng đòi hỏi người dùng phải chú ý ngay lập tức do tiềm ẩn rủi ro.
-
-> [!CAUTION]
-> Hậu quả tiêu cực tiềm tàng của một hành động.
-
 <!-- Mermaid -->
 
 ### Mermaid 
