@@ -85,11 +85,6 @@ figure figcaption {
 /* Chèn code */
 
 
-/* Footnote */
-
-ol li{
-  margin-bottom: 10px;
-}
   
 /* Mathjax */
 
@@ -106,58 +101,3 @@ ol li{
     /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
     scroll-margin-top: 15px; 
 }
-
-/* footer */
-
-footer{
-    padding-top: 1vh;
-}
-
-.footerNav{
-    margin: 20px 0;
-}
-
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.footerNav ul li a{
-    color:#111;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1 em;
-    opacity: 0.6;
-    transition: 0.5s;
-}
-
-.footerNav ul li a:hover{
-    opacity: 3;
-    color:rgb(50, 78, 192); 
-}
-.footerBottom{
-    padding: 1vh;
-    text-align: center;
-}
-.footerBottom p{
-    font-size: 16px;
-    color:#111;
-}
-.designer{
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-}
-@media (max-width: 700px){
-    .footerNav ul{
-        flex-direction: column;
-    } 
-    .footerNav ul li{
-        width:100%;
-        text-align: center;
-        margin: 10px;
-    }
-}
-
