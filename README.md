@@ -17,7 +17,6 @@ Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa �
 ### Tiêu đề: 
 
 ```markdown
-
 # Tiêu đề loại 1
 
 ## Tiêu đề loại 2
@@ -172,14 +171,13 @@ Sử dụng thuần thẻ `div`, `blockquote`.
 ### Mermaid 
 
 <pre class="mermaid">
-  timeline TD
-    title MermaidChart 2023 Timeline
-      section 2023 Q1 <br> Release Personal Tier
-        Bullet 1 : sub-point 1a : sub-point 1b
-        Bullet 2 : sub-point 2a : sub-point 2b
-      section 2023 Q2 <br> Release XYZ Tier
-        Bullet 3 : sub-point <br> 3a : sub-point 3b
-        Bullet 4 : sub-point 4a : sub-point 4b
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : YouTube
+    2006 : Twitter
 </pre>
 
 <!-- footer -->

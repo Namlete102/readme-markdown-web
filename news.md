@@ -38,6 +38,8 @@ Nơi đây sẽ chứa những thông báo mới nhất của dự án.
 
 Tham khảo ở web [đây](https://bellard.org/tinyemu/): <a href="https://bellard.org/tinyemu/" target="_blank">https://bellard.org/tinyemu/</a>
 
+---
+
 <!-- footer -->
 
 <div align="center">

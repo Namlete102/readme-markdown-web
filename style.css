@@ -101,8 +101,8 @@ figure figcaption {
 /* ==========================================================================
    2. DISPLAY CODE BLOCK (`pre` và `.highlight`)
    ========================================================================== */
-.markdown-body .highlight,
-.markdown-body pre {
+.highlight,
+ pre {
     margin-top: 0;
     margin-bottom: 1.25rem;
     border-radius: 0.625rem;
@@ -110,7 +110,7 @@ figure figcaption {
     color: #c9d1d9;
 }
 
-.markdown-body pre {
+ pre {
     padding: 1rem 1.25rem;
     overflow: auto;
     font-size: 85%;
@@ -119,7 +119,7 @@ figure figcaption {
 }
 
 /*Reset CSS cho thẻ code nằm bên trong thẻ pre (Block code)*/
-.markdown-body pre > code {
+ pre > code {
     display: block;
     padding: 0;
     margin: 0;
@@ -132,7 +132,7 @@ figure figcaption {
     color: inherit;
 }
 
-.markdown-body .highlight pre {
+.highlight pre {
     margin-bottom: 0;
     word-break: normal;
 }
@@ -201,7 +201,7 @@ figure figcaption {
    4. MERMAID DIAGRAMS (Phong cách Notion)
    ========================================================================== */
 /* Reset lại khung pre chứa sơ đồ Mermaid */
-.markdown-body pre.mermaid {
+ pre.mermaid {
     background-color: #f7f6f3 !important; /* Màu nền xám nhẹ/kem đặc trưng của Notion */
     border: 1px solid rgba(55, 53, 47, 0.09) !important; /* Viền mỏng chuẩn Notion */
     border-radius: 6px !important;
@@ -213,36 +213,36 @@ figure figcaption {
 }
 
 /* Loại bỏ kiểu chữ code dạng monospace cố định cho sơ đồ */
-.markdown-body pre.mermaid code {
+ pre.mermaid code {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif !important;
     background-color: transparent !important;
     color: inherit !important;
 }
 
 /* Tinh chỉnh màu sắc phần tử SVG khi Mermaid được render */
-.markdown-body pre.mermaid svg {
+ pre.mermaid svg {
     max-width: 100%;
     height: auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
 }
 
 /* Ép các văn bản trong sơ đồ dùng màu chữ tối dễ đọc */
-.markdown-body pre.mermaid svg text,
+ pre.mermaid svg text,
 .markdown-body pre.mermaid svg .label {
     fill: #37352f !important;
     color: #37352f !important;
 }
 
 /* Đường nối/mũi tên trong sơ đồ */
-.markdown-body pre.mermaid svg .node rect,
-.markdown-body pre.mermaid svg .node circle,
-.markdown-body pre.mermaid svg .node polygon {
+ pre.mermaid svg .node rect,
+ pre.mermaid svg .node circle,
+ pre.mermaid svg .node polygon {
     fill: #ffffff !important;
     stroke: #e1e0dc !important;
     stroke-width: 1px !important;
 }
 
-.markdown-body pre.mermaid svg .edgePath .path {
+ pre.mermaid svg .edgePath .path {
     stroke: #9b9a97 !important;
     stroke-width: 1.5px !important;
 }
