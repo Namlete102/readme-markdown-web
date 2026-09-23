@@ -115,6 +115,11 @@ pre::before {
   height: 32px;
   background-color: #252526;
   border-bottom: 1px solid #2d2d2d;
+  /* Tạo 3 nút đỏ, vàng, xanh bằng CSS Gradient */
+  background-image: 
+    radial-gradient(circle, #ff5f56 5px, transparent 6px),
+    radial-gradient(circle, #ffbd2e 5px, transparent 6px),
+    radial-gradient(circle, #27c93f 5px, transparent 6px);
   background-size: 12px 12px;
   background-position: 14px 10px, 32px 10px, 50px 10px;
   background-repeat: no-repeat;
